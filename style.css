@@ -1,0 +1,17 @@
+body{
+    background-color: dodgerblue;
+}
+h1{
+    color: white;
+    text-shadow: black 3px 3px;
+}
+.fields{
+    background-color: orange;
+    color: black;
+    border: 3px solid black;
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: hotpink;
+    border: 3px solid black;
+}

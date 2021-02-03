@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <center>
+            <h1>Checkings Balance:</h1>
+            <br>
+            <p>Enter an amount to withdrawl:</p>
+            <input type="text" class="fields" id="w_amount">
+            <button type="button" class="btn" id="w_btn">Withdrawl</button>
+            <br>
+            <p>Enter an amount to deposit:</p>
+            <input type="text" class="fields" id="d_amount">
+            <button type="button" class="btn" id="d_btn">Deposit</button>
+            <script src="checking.js"></script>
+            <br>
+            <br>
+    
+            <form action="saving.html">
+                <button type="button" class="btn" onclick="checkBalance()">Check Balance</button>
+                <input type="submit" class="fields" value="Savings Account">
+            </form>
+        </center>
+
+    </body>
+</html>
